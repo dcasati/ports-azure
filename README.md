@@ -94,6 +94,8 @@ Run `make makesum` and proceed with the build.
 
 ```
 $ doas make makesum    
+
+
 doas (dcasati@puffy.dcvlab.home) password: 
 ===>  Checking files for azure-vhd-utils-20170104
 >> Fetch https://github.com/Microsoft/azure-vhd-utils/archive/2dd43d88c85c06c55828c86159d4583db9d41fbb.tar.gz
@@ -146,3 +148,7 @@ devel/py-azure-mgmt-nspkg       azure/mgmt/__init__.py
 
 The latest py-azure-mgmt-resource 0.31.0 is not compatible 0.30.2 must
 be used as 0.30.2 removes a file used by py-azure-cli-resource.
+
+## References
+
+ Forked from [github.com/jonathangray/ports-azure](jonathangray/ports-azure) 
