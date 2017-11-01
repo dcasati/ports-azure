@@ -151,4 +151,4 @@ be used as 0.30.2 removes a file used by py-azure-cli-resource.
 
 ## References
 
- Forked from [github.com/jonathangray/ports-azure](jonathangray/ports-azure) 
+ Forked from [github.com/jonathangray/ports-azure](https://github.com/jonathangray/ports-azure) 
