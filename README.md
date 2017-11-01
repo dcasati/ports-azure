@@ -18,16 +18,16 @@ This toolset also allows the creation of OpenBSD VMs that can later be imported 
 
 ## Download and Extract ports-azure
 
-Download or fetch the `ports-azure` repo and extract it to /usr/ports.
+Git clone the `ports-azure` repo and extract it to /usr/ports.
 
 ```
-$ ftp -o ports-azure.zip https://github.com/jonathangray/ports-azure/archive/master.zip
-$ unzip ports-azure.zip
+$ git clone https://github.com/dcasati/ports-azure.git
 ```
+
 Next, move the ports-azure-master to the right directory (/usr/ports)
 
 ```
-$ doas mv ports-azure-master /usr/ports/ports-azure
+$ doas mv ports-azure /usr/ports/ports-azure
 ```
 
 ## Prepare for the build process
