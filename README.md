@@ -125,6 +125,13 @@ doas (dcasati@puffy.dcvlab.home) password:
 $
 ```
 
+and finally install it
+
+```
+$ doas make install
+doas (dcasati@puffy.dcvlab.home) password:
+```
+
 ## Notes
 
 There seems to be some kind of strange packaging error on microsoft's part
